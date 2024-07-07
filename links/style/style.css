@@ -1,0 +1,47 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+	margin:0;
+	padding:0;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-family: Arial;
+}
+
+.banner
+{
+	width: 100%;
+	height: 500px;
+	position:relative;
+	top: 40px;
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+	z-index: -1;
+}
+
+.content-area
+{
+	width: 100%;
+	top: 500px;
+	position:inherit;
+	height: auto;
+}
+
+.wrapper
+{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.para
+{
+	font-family: 'Segoe UI', Arial, Geneva, Verdana;
+  	font-size:1rem;
+  	font-weight:normal;
+  	line-height:1.5;
+}
